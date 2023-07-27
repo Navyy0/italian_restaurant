@@ -1,0 +1,369 @@
+.nav-item {
+    padding: 5px;
+
+}
+.nav-item :hover { color: darkgrey;}
+.form-control { margin-left: 400px;}
+
+#top_nav {
+    background-image: url("../images/backgd.png") !important;
+}
+
+.navbar-dark {
+    --bs-navbar-color: whitesmoke;
+    
+    --bs-navbar-hover-color: rgba(171, 16, 16, 0.75) !important
+    ;    
+}
+#searchbox { border-radius: 90px !important;
+position: relative;
+padding: auto;
+left: 55px;
+}
+#searchbtn { position: relative;
+z-index: 99;
+border-radius: 95px;
+border-color:whitesmoke !important
+;
+color: black;
+}
+#searchbox :hover { background-color: aliceblue;}
+
+#searchbtn :hover { 
+background-color: aliceblue;}
+        .nav-item{padding-right: 25px;}
+
+ #back { background-image: url("../images/backgd.png")
+    ;
+    
+} 
+
+#intro { padding-top: 50px;
+padding-left:  15px; ;}
+@media only screen and (max-width:865px) {
+
+   #intro{ padding-top: 32px;
+    padding-left: 26px;}
+}
+        @media only screen and (max-width:1152px) {
+            #searchbox {margin-left: auto;}
+        }
+@media only screen and (max-width:585px){
+            #Food img{padding-right: 40px;
+        } }
+
+        @media only screen and (max-width:490px){
+            #Food img{ display: none;
+        } }
+        
+            
+        
+  #logo img {height: 65px;} 
+  #logo{ font-family: 'Instrument Serif', serif;
+    color: aliceblue;
+  }   
+ #Food img {
+    width: 100%;
+}
+#name { width: 80%;
+height: auto;}
+#spa { height: 50%; position: relative; right: 12%; 
+    ;
+width: auto;}
+#pas { height: 50%;width: auto; position: relative;
+    right: 18%;}
+#Rav { height: 50%; width: auto;
+position: relative
+top =  24px;}
+
+#spaa { position: relative;
+    right: 39px;
+}
+#pass { position: relative;
+    right: 45px;
+}
+@media only screen and (max-width: 1150px) {
+    #spaa {position: relative;
+        left: -10px; }
+     #pass   {
+            position: relative;
+            left: 12px;
+        } 
+        #Ravv{position: relative;
+        left: 20px;
+    }}
+        @media only screen and (max-width: 1280px) {
+    #spaa { position: relative;
+        right: 16px;
+        bottom: 9px;
+    }
+    #spaaa {position: relative;
+        bottom: 1px;}
+    #pass {
+        position: relative;
+        right: 12px;
+    }
+}
+@media only screen and (max-width: 1080px) {
+    #spa {
+        height: 40%;
+        position: relative;
+        right: 23%;
+        width: auto;
+    }
+   
+   
+    #spaa {
+        position: relative;
+        left: -48px;
+    }
+    #spaaa { 
+        position: relative;
+        right: 39px;
+    }
+    #pas {
+        height: 40%;
+        width: auto;
+        position: relative;
+        right: 23%;
+    }
+    #pass {
+        position: relative;
+        left: -23px;
+    }
+#passs { position: relative;
+    right: 20px;
+}
+#Rav {
+    height: 40%;
+    width: auto;}
+#Ravv { position: relative;
+    left: -2px;}    }
+
+    @media only screen and (max-width: 1080px) {
+        #spa {
+            height: 40%;
+            position: relative;
+            right: 20%;
+            width: auto;
+        }
+       
+       
+        #spaa {
+            position: relative;
+            left: -48px;
+        }
+        #spaaa { 
+            position: relative;
+            right: 39px;
+        }
+        #pas {
+            height: 40%;
+            width: auto;
+            position: relative;
+            right: 12%;
+        }
+        #pass {
+            position: relative;
+            left: -23px;
+        }
+    #passs { position: relative;
+        right: 20px;
+    }
+    #Rav {
+        height: 40%;
+        width: auto;}
+    #Ravv { position: relative;
+        left: -2px;}    }
+
+        @media only screen and (max-width: 870px) {
+            #spa {
+                height: 35%;
+                position: relative;
+                right: 21%;
+                width: auto;
+            }
+           
+           
+            #spaa {
+                position: relative;
+                left: -28px;
+            }
+            #spaaa { 
+                position: relative;
+                right: 27px;
+            }
+            #pas {
+                height: 35%;
+                width: auto;
+                position: relative;
+                right: 11%;
+            }
+            #pass {
+                position: relative;
+                left: -2px;
+            }
+        #passs { position: relative;
+            right: 4px;
+        }
+        #Rav {
+            height: 35%;
+            width: auto;}
+        #Ravv { position: relative;
+            left: 7px;} 
+        #Ravvv { position: relative
+            ;left: 10px; }   }
+
+            @media only screen and (max-width: 766px) {
+                #intro {padding: 30px 90px;}
+
+            #Food img {width: 65%;
+                height: auto;
+                position: relative;
+                left: 132px;
+                bottom: 41px;}
+                
+                #spa {
+                    height: 50%;
+                    position: relative;
+                    right: 0%;
+                    width: auto;
+                }
+               
+               
+                #spaa {
+                    position: relative;
+                    left: -4px;
+                }
+                #spaaa { 
+                    position: relative;
+                    right: -14px;
+                }
+                #pas {
+                    height: 50%;
+                    width: auto;
+                    position: relative;
+                    right: 0%;
+                }
+                 #Rav {
+                height: 50%;
+                width: auto;
+                  position: relative;
+                right: 0%;}
+            #Ravv { position: relative;
+                left: -4px;} 
+            #Ravvv { position: relative
+                ;left: 10px; }   }
+     
+    
+                @media only screen and (max-width: 353px) {
+                    #spa {
+                        height: 40%;
+                        position: relative;
+                        right: 0%;
+                        width: auto;
+                    }
+                   
+                   
+                    #spaa {
+                        position: relative;
+                        left: -2px;
+                    }
+                    
+                    #pas {
+                        height: 40%;
+                        width: auto;
+                        position: relative;
+                        right: 0%;
+                    }
+                    #Rav {
+                    height: 40%;
+                    width: auto;}
+                    #Ravv { position: relative;
+                        left: -13px;} }
+
+                        @media only screen and (max-width: 290px) {
+                            #spa {
+                                height: 35%;
+                                position: relative;
+                                right: 0%;
+                                width: auto;
+                            }              
+                            #pas {
+                                height: 35%;
+                                width: auto;
+                                position: relative;
+                                right: 0%;
+                            }
+                            #Rav {
+                            height: 35%;
+                            width: auto;
+                            position: relative;
+                            left: 7px;
+                        }
+                            #Ravv { position: relative;
+                                left: -3px;} }
+ #show { position: relative;
+
+    bottom: 24px;
+    right:22px;
+padding: 1% 3%;
+border-radius: 29px;}
+
+#three { background-image: url("../images/backgd.png");}
+#three1 {color: azure;}
+#pizza { margin-left: 25%;
+    position: relative;
+    top: 16%;}
+    #row5 {background-image: url("../images/backgd.png"); }
+    #row5img { margin-left: 90%; position: relative;
+        bottom: 24px;}
+    #row5lorem { margin-left:20%;}
+    #row5h2 { color: aliceblue;
+    margin-left: 10%;}
+    #row7 { margin-left: -14%;
+        position: relative;
+        left: 99px;
+    border-radius: 50px;}
+        #row7btn { z-index: 99%;
+        position: relative;
+    border-radius: 50px;
+right: 2px; background-color: dimgray;color: aliceblue;}
+#row7lf { position: relative;
+    right: 38%; top: 45px;
+}
+.list { text-decoration: none;
+color: black;
+}
+.listst :hover { color:gray;}
+.listst { list-style-type: none;}
+.mar { margin-left: 19px;}
+@media only screen and (max-width: 895px) {
+    #row5img {margin-left: 81%;
+    }
+    #row5lorem {
+        margin-left: 9%;
+    }
+    #pizza {
+        margin-left: 15%;
+}}
+@media only screen and (max-width: 768px){
+    #row5img {
+        margin-left: 530px;}
+        #row5lorem {
+            margin-left: 70px;
+
+}
+#xyz { display: none;}}
+@media only screen and (max-width: 705px){#row5img{width: 15%;
+    height: auto;}}
+    @media only screen and (max-width: 670px){ #pizza{ width: 60%;}
+    #row5lorem {
+        margin-left: 81px;
+        width: 70%;}
+        #row5img{display: none;}}
+        @media only screen and (max-width: 470px){ #row5lorem {
+            margin-left: 55px;
+            width: 70%;
+        }
+    #xyt { width: 20%;}}
